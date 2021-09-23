@@ -21,6 +21,7 @@ h1 {
 form {
     display: flex;
     height: 7vmax;
+    margin-bottom: 5vmax
 }
 
 input[type= text] {
@@ -70,7 +71,7 @@ button:hover {
 }
 
 .skills {
-    margin-bottom: 1vmin;
+    margin-bottom: 2vmax;
 }
 
 .skill {
