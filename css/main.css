@@ -25,6 +25,7 @@ form {
 
 input[type= text] {
     border: 0;
+    border-radius: 0;
     background-color: #eaeaea;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -38,28 +39,34 @@ input[type= text]:focus {
 }
 
 .submit {
+    border-radius: 0;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    background-color: rgba(68, 184, 126, 0.8);
     color: white;
     width: 20%;
 }
 
 .submit, button {
     border: 0;
-    background-color: rgba(68, 184, 126, 0.8);
     font-size: 1.2em;
     color: white;
 }
 
-.submit:hover, button:hover {
-    color: black;
+.submit:hover {
     background-color: rgb(68, 184, 126);
 }
+
 
 button {
     border-radius: 5px;
     padding: 1vmin;
+    background-color: rgba(223, 57, 65, 0.8);
     width: 5em;
+}
+
+button:hover {
+    background-color: rgb(223, 57, 65);
 }
 
 .skills {
