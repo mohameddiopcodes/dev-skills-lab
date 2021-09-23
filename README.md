@@ -1,7 +1,7 @@
-<img src='images/my-dev-skills-lab'>
+<img src='/images/my-dev-skills-lab'>
 
 ## My Dev Skills Lab
 
 a simple developer skills repertoire.
 
-[a 'Visit here'] (skillslab.surge.sh)
+[a link] (http://skillslab.surge.sh)
