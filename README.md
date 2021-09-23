@@ -1,4 +1,4 @@
-<img src='./my-dev-skills-lab.png'>
+<img src='./skillslab.jpg'>
 
 ## My Dev Skills Lab
 
