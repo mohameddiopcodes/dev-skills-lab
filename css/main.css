@@ -20,7 +20,7 @@ h1 {
 
 form {
     display: flex;
-    height: 7vmin;
+    height: 7vmax;
 }
 
 input[type= text] {
