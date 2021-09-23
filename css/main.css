@@ -101,7 +101,6 @@ button:hover {
     form {
         justify-content: space-between;
         align-items: stretch;
-        max-height: 3em;
     }
 
     .submit:focus, input[type = text]:focus {
@@ -116,6 +115,10 @@ button:hover {
 
     .submit, input[type = text] {
         font-size: 0.8em;
+    }
+
+    form {
+        height: 3.5em;
     }
 
     .skill {
