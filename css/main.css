@@ -100,6 +100,7 @@ button:hover {
     form {
         justify-content: space-between;
         align-items: stretch;
+        min-height: 5%;
     }
 
     .submit:focus, input[type = text]:focus {
