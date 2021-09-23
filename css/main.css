@@ -20,7 +20,7 @@ h1 {
 
 form {
     display: flex;
-    height: 5vh;
+    min-height: 5vh;
 }
 
 input[type= text] {
