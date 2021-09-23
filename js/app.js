@@ -7,7 +7,7 @@ $("form").submit(function(e) {
 });
 
 const addSkill = () => {
-    $('input[type = submit]').on('click', (e) => {
+    $('.submit').on('click', (e) => {
         const input = $('input[type = text]')
         skills[0].push(input.val())
         input.val("")

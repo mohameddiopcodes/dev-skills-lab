@@ -30,28 +30,28 @@ input[type= text] {
     border-bottom-left-radius: 5px;
     width: 80%;
     font-size: 1.5em;
-    padding: 1vmin;
+    padding-right: 5em;
 }
 
 input[type= text]:focus {
     outline-color: rgb(68, 184, 126);
 }
 
-input[type= submit] {
+.submit {
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     color: white;
     width: 20%;
 }
 
-input[type= submit], button {
+.submit, button {
     border: 0;
     background-color: rgba(68, 184, 126, 0.8);
     font-size: 1.2em;
     color: white;
 }
 
-input[type= submit]:hover, button:hover {
+.submit:hover, button:hover {
     color: black;
     background-color: rgb(68, 184, 126);
 }
@@ -82,6 +82,22 @@ button {
     body {
         max-width: 60vw;
     }
+    .submit, input[type = text] {
+        border-radius: 5px;
+    }
+
+    input[type = text] {
+        width: 75%;
+    }
+
+    form {
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .submit:focus, input[type = text]:focus {
+        outline: none;
+    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -89,7 +105,7 @@ button {
         max-width: 80vw;
     }
 
-    input[type = submit], input[type = text] {
+    .submit, input[type = text] {
         font-size: 0.8em;
     }
 
