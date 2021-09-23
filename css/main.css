@@ -3,16 +3,97 @@
 }
 
 body {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 60vw;
+    max-width: 30vw;
 }
 
 h1 {
+    margin-top: 10vmin;
     width: 95px;
-    font-size: 2em
+    font-size: 2em;
+    align-self: flext-start;
+}
+
+form {
+    display: flex;
+    height: 5vh;
+}
+
+input[type= text] {
+    border: 0;
+    background-color: #eaeaea;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 80%;
+    font-size: 1.5em;
+    padding: 1vmin;
+}
+
+input[type= text]:focus {
+    outline-color: rgb(68, 184, 126);
+}
+
+input[type= submit] {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    width: 20%;
+}
+
+input[type= submit], button {
+    border: 0;
+    background-color: rgba(68, 184, 126, 0.8);
+    font-size: 1.2em;
+    color: white;
+}
+
+input[type= submit]:hover, button:hover {
+    color: black;
+    background-color: rgb(68, 184, 126);
+}
+
+button {
+    border-radius: 5px;
+    padding: 1vmin;
+    width: 5em;
+}
+
+.skills {
+    margin-bottom: 1vmin;
+}
+
+.skill {
+    display: flex;
+    justify-content: flex-start;
+    width: 90%;
+    margin: 1vmin 0;
+    font-size: 1.2em
+}
+
+.skill p {
+    margin-left: 2vmin;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        max-width: 60vw;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        max-width: 80vw;
+    }
+
+    input[type = submit], input[type = text] {
+        font-size: 0.8em;
+    }
+
+    .skill {
+        font-size: 0.9em
+    }
 }
