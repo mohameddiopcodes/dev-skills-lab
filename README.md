@@ -4,4 +4,4 @@
 
 a simple developer skills repertoire.
 
-[Visit here] (http://skillslab.surge.sh)
+[Visit here](http://www.ga-skillslab.surge.sh)
