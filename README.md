@@ -1,4 +1,4 @@
-<img max-width='600px' src='./skillslab.jpg'>
+<img src='./skillslab.jpg'>
 
 ## My Dev Skills Lab
 
